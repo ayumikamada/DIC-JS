@@ -27,7 +27,7 @@ $(document).ready(function(){
       // ヒント! 全体の個数はlengthメソッドを使って求めます。(lengthメソッド: 文字列の長さや配列の要素数などを取得するメソッド)
     };
     // 平均点数を取得し、取得した平均点数からランク分け("A", "B", "C", "D")をするロジックを作ります。
-    function get_achievement(subject_points){
+    function get_achievement(){
       // 変数「averageIndicate」に
       // 平均点数をHTML上のclass="average_indicate"から取得して代入します。
       let averageIndicate = $("#average_indicate").text();
